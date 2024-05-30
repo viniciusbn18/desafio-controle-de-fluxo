@@ -12,7 +12,7 @@ public class Contador {
         try {
             contar(num1, num2);
         } catch (ParametrosInvalidosException e) {
-            System.out.println("O primeiro número deve ser menor que o primeiro.");
+            System.out.println("O primeiro número deve ser menor que o segundo.");
         }
 
         sc.close();
